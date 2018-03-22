@@ -65,8 +65,8 @@
     gunluk_defolu_urun=int(input('günlük defolu ürün miktarı:'))
     toplam_defolu_urun=toplam_def_urun+gunluk_defolu_urun
     i=i+1
-    if(gunluk_defolu_urun>gunluk_uretilen+0.20)
-    print('defolu ürün sayısı limiti aştı')
-    break
+    if(gunluk_defolu_urun>gunluk_uretilen+0.20):
+       print('defolu ürün sayısı limiti aştı')
+       break
 
     print(i,"günlük","defolu ürün sayısı:",toplam_def_urun)
